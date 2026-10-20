@@ -1,4 +1,4 @@
-<div align="center">
+
 
 # 🛡️ SMART MESSAGE SHIELD
 
@@ -238,70 +238,3 @@ a web application, or additional evaluation techniques.
 |---|---|
 | Python | Main programming language |
 | Scikit-learn | Machine Learning tools |
-| TF-IDF | Text feature extraction |
-| Logistic Regression | Text classification |
-| Pandas | Dataset loading and manipulation |
-| NumPy | Numerical operations |
-| Git | Version control |
-| GitHub | Source code hosting and project documentation |
-
-The actual technologies used will depend on the final
-implementation of the project.
-
-# 9. System Requirements
-
-## Hardware Requirements
-
-- Computer or laptop
-- Minimum 4 GB RAM recommended
-- Sufficient storage for the dataset and project files
-- Internet connection for initial package installation
-
-## Software Requirements
-
-- Python 3.10 or a compatible Python version
-- A code editor such as Visual Studio Code
-- Git (optional, for version control)
-- Scikit-learn
-- Pandas
-- NumPy
-
-A command-line terminal is sufficient to run the basic
-version of this project.
-
-# 10. System Architecture
-
-The system follows a text classification workflow.
-
-```text
-          SMS Dataset
-               |
-               v
-       Data Preprocessing
-               |
-               v
-       Train-Test Split
-               |
-               v
-        TF-IDF Vectorizer
-               |
-               v
-      Machine Learning Model
-               |
-               v
-        Model Evaluation
-               |
-               v
-         Trained Model
-               |
-               v
-       New Message Input
-               |
-               v
-      Text Feature Extraction
-               |
-               v
-       Spam / Ham Prediction
-               |
-               v
-       Display Classification
